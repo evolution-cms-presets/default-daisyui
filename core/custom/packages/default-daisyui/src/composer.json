@@ -1,0 +1,13 @@
+{
+  "name": "evolution-cms-presets/default-daisyui",
+  "description": "Default DaisyUI Evolution CMS preset package.",
+  "type": "library",
+  "license": "MIT",
+  "extra": {
+    "laravel": {
+      "providers": [
+        "EvolutionCMS\\DefaultDaisyui\\DefaultDaisyuiServiceProvider"
+      ]
+    }
+  }
+}
