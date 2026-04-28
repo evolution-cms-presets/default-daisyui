@@ -29,8 +29,8 @@
           </div>
           <div class="card border border-base-300 bg-base-100">
             <div class="card-body p-5">
-              <h2 class="card-title text-base">Theme Select</h2>
-              <p class="text-sm text-base-content/70">The select menu applies DaisyUI themes and remembers the choice.</p>
+              <h2 class="card-title text-base">Theme Picker</h2>
+              <p class="text-sm text-base-content/70">The palette menu applies DaisyUI themes and remembers the last light and dark choice.</p>
             </div>
           </div>
           <div class="card border border-base-300 bg-base-100">

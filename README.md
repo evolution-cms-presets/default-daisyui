@@ -52,7 +52,7 @@ evo install /tmp/default-daisyui-preset-check \
   --preset=/path/to/default-daisyui-preset
 ```
 
-Choose "No" on the Extras prompt when you want a clean DaisyUI baseline.
+Skip optional Extras on the Extras selection screen when you want a clean DaisyUI baseline.
 
 ### CLI Install
 
@@ -117,7 +117,7 @@ After install, the generated project `.gitignore` keeps Evolution core, manager,
 - Put frontend templates in `views/`.
 - Put theme assets in `themes/default-daisyui/`.
 - DaisyUI and Tailwind browser assets are loaded in `views/layouts/base.blade.php`.
-- Light/dark switching and theme select persistence live in `themes/default-daisyui/js/theme.js`.
+- Light/dark switching and grouped DaisyUI theme picker persistence live in `themes/default-daisyui/js/theme.js`.
 - Keep the preset minimal; project-specific content belongs in the site repo that consumes it.
 - `HomeTemplateSeeder` assigns the default site template alias to `home`, so Evolution can resolve `views/home.blade.php`.
 
